@@ -2,11 +2,13 @@
 	class galeriaController extends controller{
 
 		public function index(){
-			$dados = array(
+			$dados = array();
 
-			);
+		}
 
-			$this->loadTemplate('galeria');
+		public function abrir($id, $titulo){
+			echo "Id: ".$id."<br>";
+			echo "Titulo: ".$titulo;
 		}
 	}
  ?>

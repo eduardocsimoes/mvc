@@ -1,1 +1,0 @@
-GAleria de fotos

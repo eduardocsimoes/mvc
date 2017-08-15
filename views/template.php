@@ -2,6 +2,8 @@
 	<head>
 		<title>Meu site</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
+		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>		
+		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/chart.min.js"></script>
 		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
 	</head>
 	<body>
