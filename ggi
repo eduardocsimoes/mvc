@@ -1,0 +1,32 @@
+[33mcommit 29a1f0c1d9cd7692604b44fa2e5b01bbdca292ac[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: eduardocsimoes81 <eduardocsimoes81@gmail.com>
+Date:   Wed Aug 9 13:46:54 2017 -0300
+
+    Update README.md
+
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit 572cd4d41a4e3583d515dafa794c9632249ba90e[m
+Author: eduardocsimoes81 <eduardocsimoes81@gmail.com>
+Date:   Wed Aug 9 13:45:26 2017 -0300
+
+    Create README.md
+
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit 106026c288ff3161f6b33b83a9297fbc5c5c0b9a[m
+Author: eduardocsimoes81 <eduardocsimoes81@gmail.com>
+Date:   Wed Aug 9 13:40:19 2017 -0300
+
+    initial commit
+
+ .htaccess           |  4 [32m++++[m
+ config.php          | 25 [32m+++++++++++++++++++++++++[m
+ config.php-tmp      | 26 [32m++++++++++++++++++++++++++[m
+ environment.php     |  4 [32m++++[m
+ environment.php-tmp |  4 [32m++++[m
+ index.php           |  5 [32m+++++[m
+ index.php-tmp       |  5 [32m+++++[m
+ 7 files changed, 73 insertions(+)

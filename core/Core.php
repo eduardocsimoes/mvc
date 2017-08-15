@@ -33,11 +33,21 @@
 				$currentAction = 'index';
 			}
 
+<<<<<<< HEAD
 			if(!file_exists('controllers/'.$currentController.'.php') || !method_exists($currentController, $currentAction)){
 				$currentController = 'notfoundController';
 				$currentAction = 'index';
 			}
 
+=======
+			require_once 'core/controller.php';
+
+			if(!file_exists('controllers/'.$currentController.'.php') || !method_exists($currentController, $currentAction)) {
+				$currentController = 'notfoundController';
+				$currentAction = 'index';
+			}				
+			
+>>>>>>> 8d83c4d733c65d78976a28bdba163cf074eea48b
 			$c = new $currentController();
 			call_user_func_array(array($c, $currentAction), $params);
 		}
